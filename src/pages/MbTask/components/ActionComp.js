@@ -16,7 +16,6 @@ function ActionComp() {
     const collegeOptions = [...collegeData]?.map((item) => ({ ...item, value: item?.name, label: item?.name }));
     const actionData = useSelector((state) => state?.taskReducer?.actionData);
     const actionType = useSelector((state) => state?.taskReducer?.actionType) || "unselect";
-    console.log("collegeOptions__",collegeOptions, collegeData);
     return (
         <Formik
             initialValues={{
@@ -76,7 +75,6 @@ function ActionComp() {
             })}
         >
             {({ values, errors, setFieldValue, setFieldTouched, touched, isValid }) => {
-                console.log("adsffda__sfd",values,errors);
                 return <Form>
                     <Row>
                         <Col md={6}>
