@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgb(27, 26, 26);
+  /* background: url(../src/images/lightgrey.jpg); */
+  /* background: -webkit-linear-gradient(to right, #243855, #a0c4f9, #c6fe92); */
+  /* background: linear-gradient(to right, #243855, #a0c4f9, #c6fe92); */
+}
+
+p {
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.error-message{
+  color: rgb(255, 0, 0);
+  font-weight: 500;
+}
+Label{
+  font-weight: 600;
+}
+.item-card {
+  width: 10em;
+    height: 5ex;
+    background-color: white;
+    /* border: 2px solid firebrick; */
+    border-radius: 10px;
+    font-weight: bold;
+    color: rgb(37, 37, 37);
+    cursor: pointer;
+}
+.item-card:hover {
+  background-color: rgb(243, 240, 240);
+}
+.view-hobie{
+  display: flex;
+  flex-direction: column;
+  /* font-size: larger; */
+  font-weight: bold;
+}

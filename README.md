@@ -1,1 +1,1 @@
-# mbTaskComp
+# covidApp
